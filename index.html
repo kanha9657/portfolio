@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kanhaiya Munjaji Dalvi — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Kanhaiya Munjaji Dalvi — Software Engineering Student & AI Enthusiast. Intelligent apps, modern web experiences." />
+</head>
+<body class="theme-royal">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="#hero" aria-label="Go to top">
+        <svg class="logo" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="1.5" y="1.5" width="21" height="21" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M6 15V9l6-4v10" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand-text">Kanhaiya</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+          <span class="hamburger"></span>
+        </button>
+        <ul id="nav-menu" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact" class="cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="theme-switcher" aria-label="Palette switcher">
+        <button type="button" class="theme-pill" data-theme="">Warm</button>
+        <button type="button" class="theme-pill is-active" data-theme="theme-royal">Royal</button>
+        <button type="button" class="theme-pill" data-theme="theme-emerald">Emerald</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="hero" class="hero">
+      <div class="hero-inner container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi, I'm <span class="name">Kanhaiya Munjaji Dalvi</span>
+          </h1>
+          <p class="hero-sub">
+            <span id="typed-lines" aria-live="polite"></span>
+          </p>
+          <div class="hero-actions">
+            <a href="Kanhaiya's Resume-hackerresume.pdf" class="btn primary" download>Download Résumé</a>
+            <a href="#projects" class="btn ghost">See Projects</a>
+          </div>
+        </div>
+
+        <figure class="hero-visual hero-portrait-wrap">
+          <div class="hero-portrait">
+            <img
+              class="hero-photo"
+              src="picture.png"
+              alt="Portrait of Kanhaiya Munjaji Dalvi"
+              onerror="this.style.display='none'; this.nextElementSibling.hidden=false;"
+            />
+            <div class="hero-photo-placeholder" hidden>
+              <span>KMD</span>
+            </div>
+          </div>
+          <figcaption class="hero-caption"></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="split">
+          <div class="split-text reveal">
+            <h2>About me</h2>
+            <p class="lead">A Software Engineering Student and AI Enthusiast focused on building intelligent applications and modern web experiences. I combine pragmatic engineering with thoughtful design to solve real-world problems.</p>
+            <p>My work blends frontend craftsmanship, applied machine learning prototypes, and robust backend services. I enjoy clean interfaces, careful performance tuning, and designs that feel effortless to use.</p>
+            <p class="muted">Resume and certificates are linked below — everything is handcrafted and easy to update.</p>
+          </div>
+          <aside class="split-aside reveal">
+            <dl class="meta">
+              <div>
+                <dt>Location</dt><dd>Basmath, Dist:Hingoli , India</dd>
+              </div>
+              <div>
+                <dt>Role</dt><dd>BCAStudent.Studying from SRTM university Nanded.</dd>
+              </div>
+              <div>
+                <dt>Focus</dt><dd>AI, Web, UX</dd>
+              </div>
+            </dl>
+            <a class="btn outline" href="Kanhaiya's Resume-hackerresume.pdf" download>Download Resume</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section bg-soft">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <p class="section-lead reveal">Technical skills with emphasis on web, systems and applied ML. Skill bars animate when visible.</p>
+
+        <div class="skills-grid">
+          <div class="skill reveal">
+            <div class="skill-head">
+              <strong>JavaScript</strong><span class="skill-level">85</span>
+            </div>
+            <div class="skill-bar" data-level="85"><div class="skill-fill" style="width:0%"></div></div>
+            <p class="skill-desc">ES6+, DOM, tooling, and SPA architecture.</p>
+          </div>
+
+          <div class="skill reveal">
+            <div class="skill-head">
+              <strong>Python & ML</strong><span class="skill-level">78</span>
+            </div>
+            <div class="skill-bar" data-level="78"><div class="skill-fill" style="width:0%"></div></div>
+            <p class="skill-desc">Data work, prototyping ML models, numpy/pandas.</p>
+          </div>
+
+          <div class="skill reveal">
+            <div class="skill-head">
+              <strong>React & UI</strong><span class="skill-level">80</span>
+            </div>
+            <div class="skill-bar" data-level="80"><div class="skill-fill" style="width:0%"></div></div>
+            <p class="skill-desc">Component design, accessibility, state management.</p>
+          </div>
+
+          <div class="skill reveal">
+            <div class="skill-head">
+              <strong>Systems & APIs</strong><span class="skill-level">72</span>
+            </div>
+            <div class="skill-bar" data-level="72"><div class="skill-fill" style="width:0%"></div></div>
+            <p class="skill-desc">REST, microservices basics, deployment fundamentals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Selected Projects</h2>
+        <p class="section-lead reveal">A curated selection of repositories from my GitHub profile — real projects I built and maintained.</p>
+
+        <div id="project-grid" class="projects-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="education" class="section bg-soft">
+      <div class="container">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="time">2024 — Present</div>
+            <div class="tl-content">
+              <h4>Bachelor of Engineering — Computer Science</h4>
+              <p class="muted">Focused coursework: Data Structures, Algorithms, Machine Learning, Web Systems.<br> CGPA : 7.9</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="time">2022 — 2023</div>
+            <div class="tl-content">
+              <h4>HSC at : HU.Bahirji Smarak Mahavidyalay Basmath.</h4>
+              <p class="muted">General Science <br> Percentage : 58.60%</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="time">2021 — 2022</div>
+            <div class="tl-content">
+              <h4>SSC at : HU.Bahirji Smarak Vidyalay Basmath.</h4>
+              <p class="muted">General Science <br> Percentage : 78.80%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Achievements</h2>
+        <ul class="achievements-list reveal">
+          <li>Ranked in top X% in coding competitions</li>
+          <li>Completed production ML prototype for sentiment analysis</li>
+          <li>Published technical walkthrough on building lightweight chatbots</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Certificates</h2>
+        <p class="section-lead reveal">Verified course certificates and internships — click to view (opens PDF).</p>
+
+        <div id="cert-grid" class="cert-grid reveal" aria-live="polite">
+        </div>
+      </div>
+    </section>
+
+    <section id="social" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Connect With Me</h2>
+        <p class="section-lead reveal">Follow my work and get in touch across platforms.</p>
+        
+        <div class="social-grid reveal">
+          <a href="https://github.com/kanha9657" target="_blank" rel="noopener" class="social-card" title="GitHub">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+
+          <a href="https://www.instagram.com/artist_kanha23/" target="_blank" rel="noopener" class="social-card" title="Instagram">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/kanhaiya-dalvi-115263390/" target="_blank" rel="noopener" class="social-card" title="LinkedIn">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+
+          <a href="https://www.hackerrank.com/profile/kanha9657" target="_blank" rel="noopener" class="social-card" title="HackerRank">
+            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 21.6c-5.3 0-9.6-4.3-9.6-9.6s4.3-9.6 9.6-9.6 9.6 4.3 9.6 9.6-4.3 9.6-9.6 9.6zm3.6-9.6l-2.88-2.88 2.88-2.64-1.44-1.32-3.12 2.88-3.12-2.88-1.44 1.32 2.88 2.64-2.88 2.88 1.44 1.32 3.12-2.64 3.12 2.64z"/>
+            </svg>
+            <span>HackerRank</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-soft">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="section-lead reveal">I'm open to collaborations, internships, and interesting problems. Send a short message and I'll reply promptly.</p>
+
+        <div class="contact-grid reveal">
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p class="muted">For quick messages, use email.</p>
+            <a class="btn primary" href="mailto:your.email@example.com?subject=Hi%20Kanhaiya">Say hello</a>
+          </div>
+
+          <form class="contact-form" id="enquiry-form" autocomplete="on">
+            <label>
+              <span class="label">Your name</span>
+              <input name="name" type="text" placeholder="Jane Doe" required>
+            </label>
+            <label>
+              <span class="label">Subject</span>
+              <input name="subject" type="text" placeholder="Internship opportunity" required>
+            </label>
+            <label>
+              <span class="label">Message</span>
+              <textarea name="message" rows="5" placeholder="Short message..." required></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send enquiry</button>
+            </div>
+            <p class="form-hint">This opens your mail app with the message prefilled.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="copyright">© <span id="year"></span> Kanhaiya Munjaji Dalvi.</div>
+        <div class="footer-links">
+          <a href="https://github.com/kanha9657" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/kanhaiya-dalvi-115263390/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <button id="floating-contact" class="floating-contact" title="Contact me" aria-label="Open contact form">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+  </button>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
