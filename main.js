@@ -1,14 +1,4 @@
-/* main.js
-   Vanilla JS for:
-   - typing effect in the hero
-   - smooth scrolling nav
-   - scroll reveal using IntersectionObserver
-   - animated skill bars when visible
-   - certificate grid wiring (links to workspace PDFs)
-   - small UI helpers (mobile nav toggle, year)
-*/
 
-/* ====================== Configuration ====================== */
 const HERO_LINES = [
   "A Software Engineering Student and AI Enthusiast.",
   "I build intelligent applications, modern web experiences, and technology-driven solutions.",
@@ -20,7 +10,8 @@ const CERTIFICATES = [
   { name: "Java Basic Certificate", file: "certificates/java_basic certificate.pdf" },
   { name: "Software Engineer Intern", file: "certificates/software_engineer_intern certificate.pdf" },
   { name: "Certificate JS", file: "certificates/certificateJS.pdf" },
-  { name: "Resume (copy)", file: "Kanhaiya's Resume-hackerresume.pdf" }
+  { name: "Resume (copy)", file: "Kanhaiya's Resume-hackerresume.pdf" },
+  {name:"Deliotte Virtual intership certificates",file:"certificates/Deloitte_completion_certificate.pdf"}
 ];
 
 const PROJECTS = [
