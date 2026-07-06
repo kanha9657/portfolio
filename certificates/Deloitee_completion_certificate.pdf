@@ -1,0 +1,897 @@
+[33mcommit b68405d520df21a21eee3360a193685164ec5a03[m
+Author:     kanha9657 <munjajidalvi134@gmail.com>
+AuthorDate: Wed Jun 10 23:19:57 2026 +0530
+Commit:     kanha9657 <munjajidalvi134@gmail.com>
+CommitDate: Wed Jun 10 23:19:57 2026 +0530
+
+    First Commit
+
+[1mdiff --git a/.next/trace b/.next/trace[m
+[1mnew file mode 100644[m
+[1mindex 0000000..948f80d[m
+[1m--- /dev/null[m
+[1m+++ b/.next/trace[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m[{"name":"next-dev","duration":4213565827,"timestamp":20438913816,"id":1,"tags":{},"startTime":1781022605568,"traceId":"f7b04b044d9d7f8f"}][m
+[1mdiff --git a/Kanhaiya's Resume-hackerresume.pdf b/Kanhaiya's Resume-hackerresume.pdf[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c711a8f[m
+Binary files /dev/null and b/Kanhaiya's Resume-hackerresume.pdf differ
+[1mdiff --git a/PROJECT_REPORT.md b/PROJECT_REPORT.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ebf2f46[m
+[1m--- /dev/null[m
+[1m+++ b/PROJECT_REPORT.md[m
+[36m@@ -0,0 +1,80 @@[m
+[32m+[m[32m# Portfolio Project Report[m
+[32m+[m
+[32m+[m[32m## Project Goal[m
+[32m+[m[32mCreate a premium personal portfolio website for Kanhaiya Munjaji Dalvi using only HTML, CSS, and vanilla JavaScript. The site should feel handcrafted, modern, responsive, and distinct from common template-based portfolios.[m
+[32m+[m
+[32m+[m[32m## Current State[m
+[32m+[m[32mThe portfolio is already scaffolded and working as a single-page site with these sections:[m
+[32m+[m[32m- Hero[m
+[32m+[m[32m- About Me[m
+[32m+[m[32m- Skills[m
+[32m+[m[32m- Projects[m
+[32m+[m[32m- Education[m
+[32m+[m[32m- Achievements[m
+[32m+[m[32m- Certificates[m
+[32m+[m[32m- Contact[m
+[32m+[m
+[32m+[m[32mThe current implementation includes:[m
+[32m+[m[32m- Custom navigation bar with smooth scrolling[m
+[32m+[m[32m- Typing effect in the hero section[m
+[32m+[m[32m- Scroll reveal animations[m
+[32m+[m[32m- Animated skill bars[m
+[32m+[m[32m- Mailto-based enquiry form[m
+[32m+[m[32m- GitHub-backed project section[m
+[32m+[m[32m- Certificates section linked to local PDF files[m
+[32m+[m[32m- Profile image using `picture.png`[m
+[32m+[m
+[32m+[m[32m## Files In Use[m
+[32m+[m[32m- `index.html`[m
+[32m+[m[32m- `styles.css`[m
+[32m+[m[32m- `main.js`[m
+[32m+[m[32m- `README.md`[m
+[32m+[m[32m- `picture.png`[m
+[32m+[m[32m- `Kanhaiya's Resume-hackerresume.pdf`[m
+[32m+[m[32m- `certificates/`[m
+[32m+[m
+[32m+[m[32m## Real Content Already Integrated[m
+[32m+[m[32mThe projects section now uses actual GitHub repositories from `https://github.com/kanha9657`:[m
+[32m+[m[32m- `Nirbhaya`[m
+[32m+[m[32m- `exam_cheating_detection_software`[m
+[32m+[m[32m- `public-complaint-portal`[m
+[32m+[m[32m- `hospital-management-system`[m
+[32m+[m[32m- `AI-Crop-Disease-Detection-System`[m
+[32m+[m
+[32m+[m[32mThe profile picture is linked from `picture.png` in the portfolio root.[m
+[32m+[m
+[32m+[m[32m## Working Features[m
+[32m+[m[32m- Responsive layout for desktop and mobile[m
+[32m+[m[32m- Reveal animations on scroll[m
+[32m+[m[32m- Hero typing animation[m
+[32m+[m[32m- Project cards generated dynamically from JavaScript[m
+[32m+[m[32m- Certificate cards generated dynamically from JavaScript[m
+[32m+[m[32m- Direct email enquiry form using `mailto:`[m
+[32m+[m
+[32m+[m[32m## Known Gaps / Remaining Work[m
+[32m+[m[32m1. Replace placeholder contact details:[m
+[32m+[m[32m   - `your.email@example.com`[m
+[32m+[m[32m   - GitHub/LinkedIn footer links[m
+[32m+[m[32m2. Replace any remaining placeholder project metadata if you want more accurate descriptions, technologies, or screenshots.[m
+[32m+[m[32m3. Add real project thumbnails or screenshots for a stronger visual finish.[m
+[32m+[m[32m4. Optionally create an `assets/` folder for optimized images and icons.[m
+[32m+[m[32m5. Optionally improve contact handling with a real form backend or service if you want submissions instead of mail client opening.[m
+[32m+[m[32m6. Optionally add project filtering or repository metadata fetching if you want live GitHub integration later.[m
+[32m+[m
+[32m+[m[32m## Risks / Notes[m
+[32m+[m[32m- The enquiry form opens the user’s default mail client rather than sending in the background.[m
+[32m+[m[32m- Project cards currently use curated repository information and generic visual placeholders instead of actual screenshots.[m
+[32m+[m[32m- The GitHub links are hardcoded, so changes in repo names would need a manual update.[m
+[32m+[m
+[32m+[m[32m## Recommended Next Steps[m
+[32m+[m[32m1. Provide your final email address so the contact form can be updated.[m
+[32m+[m[32m2. Provide project screenshots or let me add polished placeholder artwork.[m
+[32m+[m[32m3. Decide whether you want a live form service instead of `mailto:`.[m
+[32m+[m[32m4. If needed, I can now refine the spacing, typography, and project presentation based on your feedback.[m
+[32m+[m
+[32m+[m[32m## Continuation Plan[m
+[32m+[m[32mIf we continue from here, the best order is:[m
+[32m+[m[32m1. Finalize contact and footer links.[m
+[32m+[m[32m2. Add or refine project visuals.[m
+[32m+[m[32m3. Polish mobile spacing and section balance.[m
+[32m+[m[32m4. Do a final cleanup pass and preview review.[m
+[1mdiff --git a/README.md b/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d54a69f[m
+[1m--- /dev/null[m
+[1m+++ b/README.md[m
+[36m@@ -0,0 +1,35 @@[m
+[32m+[m[32m# Premium handcrafted portfolio (HTML/CSS/JS)[m
+[32m+[m
+[32m+[m[32mFiles:[m
+[32m+[m[32m- index.html[m
+[32m+[m[32m- styles.css[m
+[32m+[m[32m- main.js[m
+[32m+[m
+[32m+[m[32mQuick preview[m
+[32m+[m[32m1. Place these files in your `portfolio/` folder.[m
+[32m+[m[32m2. Make sure your certificates and resume PDFs are in `portfolio/certificates/` and `portfolio/` respectively (the code references these filenames):[m
+[32m+[m[32m   - `Kanhaiya's Resume-hackerresume.pdf`[m
+[32m+[m[32m   - `certificates/python_basic certificate.pdf`[m
+[32m+[m[32m   - `certificates/java_basic certificate.pdf`[m
+[32m+[m[32m   - `certificates/software_engineer_intern certificate.pdf`[m
+[32m+[m[32m   - `certificates/certificateJS.pdf`[m
+[32m+[m
+[32m+[m[32m3. Start a quick local server and open the site:[m
+[32m+[m[32m```bash[m
+[32m+[m[32m# from the portfolio folder[m
+[32m+[m[32mpython3 -m http.server 8000[m
+[32m+[m[32m# then open http://localhost:8000 in your browser[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mCustomization notes[m
+[32m+[m[32m- Replace `your.email@example.com` in `index.html` with your email.[m
+[32m+[m[32m- Replace project placeholders in `main.js` (the `PROJECTS` array) with real titles, descriptions, links and thumbnails.[m
+[32m+[m[32m- To add/remove certificates, update the `CERTIFICATES` array in `main.js` with exact filenames.[m
+[32m+[m[32m- The design uses the Inter font. Swap or provide local fonts by editing the `<link>` in `index.html`.[m
+[32m+[m
+[32m+[m[32mAccessibility[m
+[32m+[m[32m- Keyboard skip link, meaningful landmarks and focus-friendly controls included.[m
+[32m+[m[32m- Forms use mailto fallback; add a form service if you want serverless form submissions.[m
+[32m+[m
+[32m+[m[32mNext steps[m
+[32m+[m[32m- If you want, I can add placeholder images in `assets/`, integrate project screenshots, or commit these files to your repo.[m
+[1mdiff --git a/certificates/Kanhaiya's Resume-hackerresume.pdf b/certificates/Kanhaiya's Resume-hackerresume.pdf[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bc34f4c[m
+Binary files /dev/null and b/certificates/Kanhaiya's Resume-hackerresume.pdf differ
+[1mdiff --git a/certificates/certificateJS.pdf b/certificates/certificateJS.pdf[m
+[1mnew file mode 100644[m
+[1mindex 0000000..20b9f29[m
+Binary files /dev/null and b/certificates/certificateJS.pdf differ
+[1mdiff --git a/certificates/java_basic certificate.pdf b/certificates/java_basic certificate.pdf[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8de1fc9[m
+Binary files /dev/null and b/certificates/java_basic certificate.pdf differ
+[1mdiff --git a/certificates/python_basic certificate.pdf b/certificates/python_basic certificate.pdf[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8e1dc51[m
+Binary files /dev/null and b/certificates/python_basic certificate.pdf differ
+[1mdiff --git a/certificates/software_engineer_intern certificate.pdf b/certificates/software_engineer_intern certificate.pdf[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8f5ad23[m
+Binary files /dev/null and b/certificates/software_engineer_intern certificate.pdf differ
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bc0683d[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,299 @@[m
+[32m+[m[32m<!doctype html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="utf-8" />[m
+[32m+[m[32m  <meta name="viewport" content="width=device-width,initial-scale=1" />[m
+[32m+[m[32m  <title>Kanhaiya Munjaji Dalvi — Portfolio</title>[m
+[32m+[m[32m  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">[m
+[32m+[m[32m  <link rel="stylesheet" href="styles.css">[m
+[32m+[m[32m  <meta name="description" content="Kanhaiya Munjaji Dalvi — Software Engineering Student & AI Enthusiast. Intelligent apps, modern web experiences." />[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body class="theme-royal">[m
+[32m+[m[32m  <a class="skip-link" href="#main">Skip to content</a>[m
+[32m+[m
+[32m+[m[32m  <header class="site-header">[m
+[32m+[m[32m    <div class="nav-inner">[m
+[32m+[m[32m      <a class="brand" href="#hero" aria-label="Go to top">[m
+[32m+[m[32m        <svg class="logo" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">[m
+[32m+[m[32m          <rect x="1.5" y="1.5" width="21" height="21" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/>[m
+[32m+[m[32m          <path d="M6 15V9l6-4v10" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>[m
+[32m+[m[32m        </svg>[m
+[32m+[m[32m        <span class="brand-text">Kanhaiya</span>[m
+[32m+[m[32m      </a>[m
+[32m+[m
+[32m+[m[32m      <nav class="site-nav" aria-label="Main navigation">[m
+[32m+[m[32m        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">[m
+[32m+[m[32m          <span class="hamburger"></span>[m
+[32m+[m[32m        </button>[m
+[32m+[m[32m        <ul id="nav-menu" class="nav-list">[m
+[32m+[m[32m          <li><a href="#about">About</a></li>[m
+[32m+[m[32m          <li><a href="#skills">Skills</a></li>[m
+[32m+[m[32m          <li><a href="#projects">Projects</a></li>[m
+[32m+[m[32m          <li><a href="#education">Education</a></li>[m
+[32m+[m[32m          <li><a href="#achievements">Achievements</a></li>[m
+[32m+[m[32m          <li><a href="#certificates">Certificates</a></li>[m
+[32m+[m[32m          <li><a href="#contact" class="cta">Contact</a></li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m      </nav>[m
+[32m+[m
+[32m+[m[32m      <div class="theme-switcher" aria-label="Palette switcher">[m
+[32m+[m[32m        <button type="button" class="theme-pill" data-theme="">Warm</button>[m
+[32m+[m[32m        <button type="button" class="theme-pill is-active" data-theme="theme-royal">Royal</button>[m
+[32m+[m[32m        <button type="button" class="theme-pill" data-theme="theme-emerald">Emerald</button>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </div>[m
+[32m+[m[32m  </header>[m
+[32m+[m
+[32m+[m[32m  <main id="main">[m
+[32m+[m[32m    <section id="hero" class="hero">[m
+[32m+[m[32m      <div class="hero-inner container">[m
+[32m+[m[32m        <div class="hero-content">[m
+[32m+[m[32m          <h1 class="hero-title">[m
+[32m+[m[32m            Hi, I'm <span class="name">Kanhaiya Munjaji Dalvi</span>[m
+[32m+[m[32m          </h1>[m
+[32m+[m[32m          <p class="hero-sub">[m
+[32m+[m[32m            <span id="typed-lines" aria-live="polite"></span>[m
+[32m+[m[32m          </p>[m
+[32m+[m[32m          <div class="hero-actions">[m
+[32m+[m[32m            <a href="Kanhaiya's Resume-hackerresume.pdf" class="btn primary" download>Download Résumé</a>[m
+[32m+[m[32m            <a href="#projects" class="btn ghost">See Projects</a>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m
+[32m+[m[32m        <figure class="hero-visual hero-portrait-wrap">[m
+[32m+[m[32m          <div class="hero-portrait">[m
+[32m+[m[32m            <img[m
+[32m+[m[32m              class="hero-photo"[m
+[32m+[m[32m              src="picture.png"[m
+[32m+[m[32m              alt="Portrait of Kanhaiya Munjaji Dalvi"[m
+[32m+[m[32m              onerror="this.style.display='none'; this.nextElementSibling.hidden=false;"[m
+[32m+[m[32m            />[m
+[32m+[m[32m            <div class="hero-photo-placeholder" hidden>[m
+[32m+[m[32m              <span>KMD</span>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <figcaption class="hero-caption"></figcaption>[m
+[32m+[m[32m        </figure>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <section id="about" class="section">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <div class="split">[m
+[32m+[m[32m          <div class="split-text reveal">[m
+[32m+[m[32m            <h2>About me</h2>[m
+[32m+[m[32m            <p class="lead">A Software Engineering Student and AI Enthusiast focused on building intelligent applications and modern web experiences. I combine pragmatic engineering with thoughtful design to solve real-world problems.</p>[m
+[32m+[m[32m            <p>My work blends frontend craftsmanship, applied machine learning prototypes, and robust backend services. I enjoy clean interfaces, careful performance tuning, and designs that feel effortless to use.</p>[m
+[32m+[m[32m            <p class="muted">Resume and certificates are linked below — everything is handcrafted and easy to update.</p>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <aside class="split-aside reveal">[m
+[32m+[m[32m            <dl class="meta">[m
+[32m+[m[32m              <div>[m
+[32m+[m[32m                <dt>Location</dt><dd>Basmath, Dist:Hingoli , India</dd>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div>[m
+[32m+[m[32m                <dt>Role</dt><dd>BCAStudent.Studying from SRTM university Nanded.</dd>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m              <div>[m
+[32m+[m[32m                <dt>Focus</dt><dd>AI, Web, UX</dd>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </dl>[m
+[32m+[m[32m            <a class="btn outline" href="Kanhaiya's Resume-hackerresume.pdf" download>Download Resume</a>[m
+[32m+[m[32m          </aside>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <section id="skills" class="section bg-soft">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <h2 class="section-title reveal">Skills</h2>[m
+[32m+[m[32m        <p class="section-lead reveal">Technical skills with emphasis on web, systems and applied ML. Skill bars animate when visible.</p>[m
+[32m+[m
+[32m+[m[32m        <div class="skills-grid">[m
+[32m+[m[32m          <div class="skill reveal">[m
+[32m+[m[32m            <div class="skill-head">[m
+[32m+[m[32m              <strong>JavaScript</strong><span class="skill-level">85</span>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="skill-bar" data-level="85"><div class="skill-fill" style="width:0%"></div></div>[m
+[32m+[m[32m            <p class="skill-desc">ES6+, DOM, tooling, and SPA architecture.</p>[m
+[32m+[m[32m          </div>[m
+[32m+[m
+[32m+[m[32m          <div class="skill reveal">[m
+[32m+[m[32m            <div class="skill-head">[m
+[32m+[m[32m              <strong>Python & ML</strong><span class="skill-level">78</span>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="skill-bar" data-level="78"><div class="skill-fill" style="width:0%"></div></div>[m
+[32m+[m[32m            <p class="skill-desc">Data work, prototyping ML models, numpy/pandas.</p>[m
+[32m+[m[32m          </div>[m
+[32m+[m
+[32m+[m[32m          <div class="skill reveal">[m
+[32m+[m[32m            <div class="skill-head">[m
+[32m+[m[32m              <strong>React & UI</strong><span class="skill-level">80</span>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="skill-bar" data-level="80"><div class="skill-fill" style="width:0%"></div></div>[m
+[32m+[m[32m            <p class="skill-desc">Component design, accessibility, state management.</p>[m
+[32m+[m[32m          </div>[m
+[32m+[m
+[32m+[m[32m          <div class="skill reveal">[m
+[32m+[m[32m            <div class="skill-head">[m
+[32m+[m[32m              <strong>Systems & APIs</strong><span class="skill-level">72</span>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="skill-bar" data-level="72"><div class="skill-fill" style="width:0%"></div></div>[m
+[32m+[m[32m            <p class="skill-desc">REST, microservices basics, deployment fundamentals.</p>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <section id="projects" class="section">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <h2 class="section-title reveal">Selected Projects</h2>[m
+[32m+[m[32m        <p class="section-lead reveal">A curated selection of repositories from my GitHub profile — real projects I built and maintained.</p>[m
+[32m+[m
+[32m+[m[32m        <div id="project-grid" class="projects-grid" aria-live="polite"></div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <section id="education" class="section bg-soft">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <h2 class="section-title reveal">Education</h2>[m
+[32m+[m[32m        <div class="timeline reveal">[m
+[32m+[m[32m          <div class="timeline-item">[m
+[32m+[m[32m            <div class="time">2024 — Present</div>[m
+[32m+[m[32m            <div class="tl-content">[m
+[32m+[m[32m              <h4>Bachelor of Engineering — Computer Science</h4>[m
+[32m+[m[32m              <p class="muted">Focused coursework: Data Structures, Algorithms, Machine Learning, Web Systems.<br> CGPA : 7.9</p>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <div class="timeline-item">[m
+[32m+[m[32m            <div class="time">2022 — 2023</div>[m
+[32m+[m[32m            <div class="tl-content">[m
+[32m+[m[32m              <h4>HSC at : HU.Bahirji Smarak Mahavidyalay Basmath.</h4>[m
+[32m+[m[32m              <p class="muted">General Science <br> Percentage : 58.60%</p>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <div class="timeline-item">[m
+[32m+[m[32m            <div class="time">2021 — 2022</div>[m
+[32m+[m[32m            <div class="tl-content">[m
+[32m+[m[32m              <h4>SSC at : HU.Bahirji Smarak Vidyalay Basmath.</h4>[m
+[32m+[m[32m              <p class="muted">General Science <br> Percentage : 78.80%</p>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <section id="achievements" class="section">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <h2 class="section-title reveal">Achievements</h2>[m
+[32m+[m[32m        <ul class="achievements-list reveal">[m
+[32m+[m[32m          <li>Ranked in top X% in coding competitions</li>[m
+[32m+[m[32m          <li>Completed production ML prototype for sentiment analysis</li>[m
+[32m+[m[32m          <li>Published technical walkthrough on building lightweight chatbots</li>[m
+[32m+[m[32m        </ul>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <section id="certificates" class="section">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <h2 class="section-title reveal">Certificates</h2>[m
+[32m+[m[32m        <p class="section-lead reveal">Verified course certificates and internships — click to view (opens PDF).</p>[m
+[32m+[m
+[32m+[m[32m        <div id="cert-grid" class="cert-grid reveal" aria-live="polite">[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <section id="social" class="section">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <h2 class="section-title reveal">Connect With Me</h2>[m
+[32m+[m[32m        <p class="section-lead reveal">Follow my work and get in touch across platforms.</p>[m
+[32m+[m[41m        [m
+[32m+[m[32m        <div class="social-grid reveal">[m
+[32m+[m[32m          <a href="https://github.com/kanha9657" target="_blank" rel="noopener" class="social-card" title="GitHub">[m
+[32m+[m[32m            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">[m
+[32m+[m[32m              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>[m
+[32m+[m[32m            </svg>[m
+[32m+[m[32m            <span>GitHub</span>[m
+[32m+[m[32m          </a>[m
+[32m+[m
+[32m+[m[32m          <a href="https://www.instagram.com/artist_kanha23/" target="_blank" rel="noopener" class="social-card" title="Instagram">[m
+[32m+[m[32m            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">[m
+[32m+[m[32m              <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>[m
+[32m+[m[32m              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/>[m
+[32m+[m[32m              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>[m
+[32m+[m[32m            </svg>[m
+[32m+[m[32m            <span>Instagram</span>[m
+[32m+[m[32m          </a>[m
+[32m+[m
+[32m+[m[32m          <a href="https://www.linkedin.com/in/kanhaiya-dalvi-115263390/" target="_blank" rel="noopener" class="social-card" title="LinkedIn">[m
+[32m+[m[32m            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">[m
+[32m+[m[32m              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/>[m
+[32m+[m[32m            </svg>[m
+[32m+[m[32m            <span>LinkedIn</span>[m
+[32m+[m[32m          </a>[m
+[32m+[m
+[32m+[m[32m          <a href="https://www.hackerrank.com/profile/kanha9657" target="_blank" rel="noopener" class="social-card" title="HackerRank">[m
+[32m+[m[32m            <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">[m
+[32m+[m[32m              <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 21.6c-5.3 0-9.6-4.3-9.6-9.6s4.3-9.6 9.6-9.6 9.6 4.3 9.6 9.6-4.3 9.6-9.6 9.6zm3.6-9.6l-2.88-2.88 2.88-2.64-1.44-1.32-3.12 2.88-3.12-2.88-1.44 1.32 2.88 2.64-2.88 2.88 1.44 1.32 3.12-2.64 3.12 2.64z"/>[m
+[32m+[m[32m            </svg>[m
+[32m+[m[32m            <span>HackerRank</span>[m
+[32m+[m[32m          </a>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <section id="contact" class="section bg-soft">[m
+[32m+[m[32m      <div class="container">[m
+[32m+[m[32m        <h2 class="section-title reveal">Contact</h2>[m
+[32m+[m[32m        <p class="section-lead reveal">I'm open to collaborations, internships, and interesting problems. Send a short message and I'll reply promptly.</p>[m
+[32m+[m
+[32m+[m[32m        <div class="contact-grid reveal">[m
+[32m+[m[32m          <div class="contact-card">[m
+[32m+[m[32m            <h3>Email</h3>[m
+[32m+[m[32m            <p class="muted">For quick messages, use email.</p>[m
+[32m+[m[32m            <a class="btn primary" href="mailto:your.email@example.com?subject=Hi%20Kanhaiya">Say hello</a>[m
+[32m+[m[32m          </div>[m
+[32m+[m
+[32m+[m[32m          <form class="contact-form" id="enquiry-form" autocomplete="on">[m
+[32m+[m[32m            <label>[m
+[32m+[m[32m              <span class="label">Your name</span>[m
+[32m+[m[32m              <input name="name" type="text" placeholder="Jane Doe" required>[m
+[32m+[m[32m            </label>[m
+[32m+[m[32m            <label>[m
+[32m+[m[32m              <span class="label">Subject</span>[m
+[32m+[m[32m              <input name="subject" type="text" placeholder="Internship opportunity" required>[m
+[32m+[m[32m            </label>[m
+[32m+[m[32m            <label>[m
+[32m+[m[32m              <span class="label">Message</span>[m
+[32m+[m[32m              <textarea name="message" rows="5" placeholder="Short message..." required></textarea>[m
+[32m+[m[32m            </label>[m
+[32m+[m[32m            <div class="form-actions">[m
+[32m+[m[32m              <button type="submit" class="btn primary">Send enquiry</button>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <p class="form-hint">This opens your mail app with the message prefilled.</p>[m
+[32m+[m[32m          </form>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </section>[m
+[32m+[m
+[32m+[m[32m    <footer class="site-footer">[m
+[32m+[m[32m      <div class="container footer-inner">[m
+[32m+[m[32m        <div class="copyright">© <span id="year"></span> Kanhaiya Munjaji Dalvi.</div>[m
+[32m+[m[32m        <div class="footer-links">[m
+[32m+[m[32m          <a href="https://github.com/kanha9657" target="_blank" rel="noopener">GitHub</a>[m
+[32m+[m[32m          <a href="https://www.linkedin.com/in/kanhaiya-dalvi-115263390/" target="_blank" rel="noopener">LinkedIn</a>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    </footer>[m
+[32m+[m[32m  </main>[m
+[32m+[m
+[32m+[m[32m  <button id="floating-contact" class="floating-contact" title="Contact me" aria-label="Open contact form">[m
+[32m+[m[32m    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">[m
+[32m+[m[32m      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>[m
+[32m+[m[32m    </svg>[m
+[32m+[m[32m  </button>[m
+[32m+[m
+[32m+[m[32m  <script src="main.js" defer></script>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/main.js b/main.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7a1e077[m
+[1m--- /dev/null[m
+[1m+++ b/main.js[m
+[36m@@ -0,0 +1,310 @@[m
+[32m+[m[32m/* main.js[m
+[32m+[m[32m   Vanilla JS for:[m
+[32m+[m[32m   - typing effect in the hero[m
+[32m+[m[32m   - smooth scrolling nav[m
+[32m+[m[32m   - scroll reveal using IntersectionObserver[m
+[32m+[m[32m   - animated skill bars when visible[m
+[32m+[m[32m   - certificate grid wiring (links to workspace PDFs)[m
+[32m+[m[32m   - small UI helpers (mobile nav toggle, year)[m
+[32m+[m[32m*/[m
+[32m+[m
+[32m+[m[32m/* ====================== Configuration ====================== */[m
+[32m+[m[32mconst HERO_LINES = [[m
+[32m+[m[32m  "A Software Engineering Student and AI Enthusiast.",[m
+[32m+[m[32m  "I build intelligent applications, modern web experiences, and technology-driven solutions.",[m
+[32m+[m[32m  "Passionate about learning, innovating, and solving real-world problems through code."[m
+[32m+[m[32m];[m
+[32m+[m
+[32m+[m[32mconst CERTIFICATES = [[m
+[32m+[m[32m  { name: "Python Basic Certificate", file: "certificates/python_basic certificate.pdf" },[m
+[32m+[m[32m  { name: "Java Basic Certificate", file: "certificates/java_basic certificate.pdf" },[m
+[32m+[m[32m  { name: "Software Engineer Intern", file: "certificates/software_engineer_intern certificate.pdf" },[m
+[32m+[m[32m  { name: "Certificate JS", file: "certificates/certificateJS.pdf" },[m
+[32m+[m[32m  { name: "Resume (copy)", file: "Kanhaiya's Resume-hackerresume.pdf" }[m
+[32m+[m[32m];[m
+[32m+[m
+[32m+[m[32mconst PROJECTS = [[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: 0,[m
+[32m+[m[32m    title: "Nirbhaya",[m
+[32m+[m[32m    desc: "An emergency app built to help users quickly access support in critical situations.",[m
+[32m+[m[32m    tech: "HTML",[m
+[32m+[m[32m    href: "https://github.com/kanha9657/Nirbhaya",[m
+[32m+[m[32m    repo: "kanha9657/Nirbhaya"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: 1,[m
+[32m+[m[32m    title: "Exam Cheating Detection Software",[m
+[32m+[m[32m    desc: "A computer-vision based project that monitors online exams and raises a violation score when cheating is detected.",[m
+[32m+[m[32m    tech: "Python",[m
+[32m+[m[32m    href: "https://github.com/kanha9657/exam_cheating_detection_software",[m
+[32m+[m[32m    repo: "kanha9657/exam_cheating_detection_software"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: 2,[m
+[32m+[m[32m    title: "Public Complaint Portal",[m
+[32m+[m[32m    desc: "A web app for submitting and managing public complaints in a structured workflow.",[m
+[32m+[m[32m    tech: "HTML",[m
+[32m+[m[32m    href: "https://github.com/kanha9657/public-complaint-portal",[m
+[32m+[m[32m    repo: "kanha9657/public-complaint-portal"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: 3,[m
+[32m+[m[32m    title: "Hospital Management System",[m
+[32m+[m[32m    desc: "A system for managing patient appointments and hospital operations efficiently.",[m
+[32m+[m[32m    tech: "JavaScript",[m
+[32m+[m[32m    href: "https://github.com/kanha9657/hospital-management-system",[m
+[32m+[m[32m    repo: "kanha9657/hospital-management-system"[m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m    id: 4,[m
+[32m+[m[32m    title: "AI Crop Disease Detection System",[m
+[32m+[m[32m    desc: "An AI-based deep learning system that identifies plant diseases from leaf images and suggests treatments.",[m
+[32m+[m[32m    tech: "AI / Deep Learning",[m
+[32m+[m[32m    href: "https://github.com/kanha9657/AI-Crop-Disease-Detection-System",[m
+[32m+[m[32m    repo: "kanha9657/AI-Crop-Disease-Detection-System"[m
+[32m+[m[32m  }[m
+[32m+[m[32m];[m
+[32m+[m
+[32m+[m[32m/* ====================== Utilities ====================== */[m
+[32m+[m[32mconst $ = (sel, ctx = document) => ctx.querySelector(sel);[m
+[32m+[m[32mconst $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));[m
+[32m+[m
+[32m+[m[32mfunction linkFor(path){[m
+[32m+[m[32m  return encodeURI(path);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* ====================== Typing effect ====================== */[m
+[32m+[m[32mfunction runTypingEffect(containerId, lines, opts = {}) {[m
+[32m+[m[32m  const el = document.getElementById(containerId);[m
+[32m+[m[32m  if(!el) return;[m
+[32m+[m[32m  const typingSpeed = opts.typingSpeed || 36;[m
+[32m+[m[32m  const pauseBetween = opts.pauseBetween || 900;[m
+[32m+[m[32m  let lineIndex = 0;[m
+[32m+[m
+[32m+[m[32m  function typeLine(line, i = 0){[m
+[32m+[m[32m    if(i <= line.length){[m
+[32m+[m[32m      el.textContent = line.slice(0, i);[m
+[32m+[m[32m      setTimeout(()=> typeLine(line, i+1), typingSpeed);[m
+[32m+[m[32m    } else {[m
+[32m+[m[32m      setTimeout(()=> {[m
+[32m+[m[32m        lineIndex++;[m
+[32m+[m[32m        if(lineIndex < lines.length){[m
+[32m+[m[32m          typeLine(lines[lineIndex]);[m
+[32m+[m[32m        }[m
+[32m+[m[32m      }, pauseBetween);[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m[32m  typeLine(lines[0]);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* ====================== Smooth scrolling & nav behavior ====================== */[m
+[32m+[m[32mfunction initNav(){[m
+[32m+[m[32m  document.addEventListener('click', e => {[m
+[32m+[m[32m    const a = e.target.closest('a[href^="#"]');[m
+[32m+[m[32m    if(!a) return;[m
+[32m+[m[32m    const href = a.getAttribute('href');[m
+[32m+[m[32m    if(href === '#') return;[m
+[32m+[m[32m    e.preventDefault();[m
+[32m+[m[32m    const dest = document.querySelector(href);[m
+[32m+[m[32m    if(dest){[m
+[32m+[m[32m      dest.scrollIntoView({behavior:'smooth', block:'start'});[m
+[32m+[m[32m      const toggle = $('.nav-toggle');[m
+[32m+[m[32m      if(toggle && toggle.getAttribute('aria-expanded') === 'true') toggle.click();[m
+[32m+[m[32m    }[m
+[32m+[m[32m  });[m
+[32m+[m
+[32m+[m[32m  const toggle = $('.nav-toggle');[m
+[32m+[m[32m  const menu = $('#nav-menu');[m
+[32m+[m[32m  if(toggle && menu){[m
+[32m+[m[32m    toggle.addEventListener('click', () => {[m
+[32m+[m[32m      const open = toggle.getAttribute('aria-expanded') === 'true';[m
+[32m+[m[32m      toggle.setAttribute('aria-expanded', (!open).toString());[m
+[32m+[m[32m      menu.style.display = open ? 'none' : 'flex';[m
+[32m+[m[32m    });[m
+[32m+[m[32m  }[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfunction initThemeSwitcher(){[m
+[32m+[m[32m  const buttons = $$('.theme-pill');[m
+[32m+[m[32m  if(!buttons.length) return;[m
+[32m+[m
+[32m+[m[32m  const storageKey = 'portfolio-theme';[m
+[32m+[m[32m  const defaultTheme = 'theme-royal';[m
+[32m+[m
+[32m+[m[32m  function applyTheme(themeClass){[m
+[32m+[m[32m    document.body.classList.remove('theme-royal', 'theme-emerald');[m
+[32m+[m[32m    if(themeClass) document.body.classList.add(themeClass);[m
+[32m+[m[32m    buttons.forEach(button => {[m
+[32m+[m[32m      const isActive = button.dataset.theme === themeClass;[m
+[32m+[m[32m      button.classList.toggle('is-active', isActive);[m
+[32m+[m[32m      button.setAttribute('aria-pressed', String(isActive));[m
+[32m+[m[32m    });[m
+[32m+[m[32m    if(!themeClass){[m
+[32m+[m[32m      const warmButton = buttons.find(button => button.dataset.theme === '');[m
+[32m+[m[32m      if(warmButton) warmButton.classList.add('is-active');[m
+[32m+[m[32m    }[m
+[32m+[m[32m  }[m
+[32m+[m
+[32m+[m[32m  const savedTheme = localStorage.getItem(storageKey) || defaultTheme;[m
+[32m+[m[32m  localStorage.setItem(storageKey, savedTheme);[m
+[32m+[m[32m  applyTheme(savedTheme);[m
+[32m+[m
+[32m+[m[32m  buttons.forEach(button => {[m
+[32m+[m[32m    button.addEventListener('click', () => {[m
+[32m+[m[32m      const nextTheme = button.dataset.theme || '';[m
+[32m+[m[32m      localStorage.setItem(storageKey, nextTheme);[m
+[32m+[m[32m      applyTheme(nextTheme);[m
+[32m+[m[32m    });[m
+[32m+[m[32m  });[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* ====================== Scroll reveal & skill animation ====================== */[m
+[32m+[m[32mfunction initRevealAndSkills(){[m
+[32m+[m[32m  const observer = new IntersectionObserver((entries) => {[m
+[32m+[m[32m    entries.forEach(entry => {[m
+[32m+[m[32m      if(entry.isIntersecting){[m
+[32m+[m[32m        entry.target.classList.add('is-revealed');[m
+[32m+[m[32m        if(entry.target.id === 'skills' || entry.target.closest('#skills')){[m
+[32m+[m[32m          $$('.skill-bar').forEach(bar => {[m
+[32m+[m[32m            const level = Number(bar.dataset.level || 0);[m
+[32m+[m[32m            const fill = bar.querySelector('.skill-fill');[m
+[32m+[m[32m            if(fill){ requestAnimationFrame(()=> fill.style.width = level + '%'); }[m
+[32m+[m[32m          });[m
+[32m+[m[32m        }[m
+[32m+[m[32m      }[m
+[32m+[m[32m    });[m
+[32m+[m[32m  }, {threshold: 0.12});[m
+[32m+[m
+[32m+[m[32m  $$('.reveal').forEach(el => observer.observe(el));[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* ====================== Certificates grid ====================== */[m
+[32m+[m[32mfunction renderCertificates(){[m
+[32m+[m[32m  const grid = $('#cert-grid');[m
+[32m+[m[32m  if(!grid) return;[m
+[32m+[m[32m  CERTIFICATES.forEach(cert => {[m
+[32m+[m[32m    const link = linkFor(cert.file);[m
+[32m+[m[32m    const card = document.createElement('a');[m
+[32m+[m[32m    card.className = 'cert-card';[m
+[32m+[m[32m    card.href = link;[m
+[32m+[m[32m    card.target = '_blank';[m
+[32m+[m[32m    card.rel = 'noopener';[m
+[32m+[m[32m    card.title = cert.name;[m
+[32m+[m
+[32m+[m[32m    card.innerHTML = `[m
+[32m+[m[32m      <div class="cert-thumb" aria-hidden="true">[m
+[32m+[m[32m        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">[m
+[32m+[m[32m          <path d="M7 2h8l4 4v14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h3z" stroke="#0f1724" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>[m
+[32m+[m[32m        </svg>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <div class="cert-info">[m
+[32m+[m[32m        <div class="cert-title">${cert.name}</div>[m
+[32m+[m[32m        <div class="cert-sub">View PDF</div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    `;[m
+[32m+[m[32m    grid.appendChild(card);[m
+[32m+[m[32m  });[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m/* ====================== Projects wiring ====================== */[m
+[32m+[m[32mfunction wireProjects(){[m
+[32m+[m[32m  const grid = document.getElementById('project-grid');[m
+[32m+[m[32m  if(!grid) return;[m
+[32m+[m
+[32m+[m[32m  grid.innerHTML = '';[m
+[32m+[m
+[32m+[m[32m  PROJECTS.forEach((project, index) => {[m
+[32m+[m[32m    const card = document.createElement('article');[m
+[32m+[m[32m    card.className = 'project-card reveal';[m
+[32m+[m[32m    card.dataset.project = String(index);[m
+[32m+[m
+[32m+[m[32m    card.innerHTML = `[m
+[32m+[m[32m      <div class="project-media project-media--github">[m
+[32m+[m[32m        <div class="project-badge">GitHub</div>[m
+[32m+[m[32m        <svg viewBox="0 0 400 260" class="project-thumb" preserveAspectRatio="xMidYMid slice" aria-hidden="true">[m
+[32m+[m[32m          <rect width="400" height="260" rx="12" fill="#0f1724" opacity="0.05"></rect>[m
+[32m+[m[32m          <g transform="translate(24,30)">[m
+[32m+[m[32m            <rect width="220" height="30" rx="8" fill="#0f1724"></rect>[m
+[32m+[m[32m            <rect y="48" width="300" height="12" rx="6" fill="#eef6f5"></rect>[m
+[32m+[m[32m            <rect y="72" width="250" height="12" rx="6" fill="#f7fbfb"></rect>[m
+[32m+[m[32m            <rect y="96" width="180" height="12" rx="6" fill="#eef6f5"></rect>[m
+[32m+[m[32m          </g>[m
+[32m+[m[32m        </svg>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m      <div class="project-body">[m
+[32m+[m[32m        <h3 class="project-title">${project.title}</h3>[m
+[32m+[m[32m        <p class="project-excerpt">${project.desc}</p>[m
+[32m+[m[32m        <div class="tech-badges">[m
+[32m+[m[32m          <span class="tech-badge">${project.tech}</span>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m        <div class="project-meta">[m
+[32m+[m[32m          <a href="${project.href}" class="link" target="_blank" rel="noopener">Open repo</a>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m      </div>[m
+[32m+[m[32m    `;[m
+[32m+[m
+[32m+[m[32m    grid.appendChild(card);[m
+[32m+[m[32m    requestAnimationFrame(() => card.classList.add('is-revealed'));[m
+[32m+[m[32m  });[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfunction setYear(){ document.getElementById('year').textContent = new Date().getFullYear(); }[m
+[32m+[m
+[32m+[m[32mfunction initEnquiryForm(){[m
+[32m+[m[32m  const form = document.getElementById('enquiry-form');[m
+[32m+[m[32m  if(!form) return;[m
+[32m+[m
+[32m+[m[32m  form.addEventListener('submit', (event) => {[m
+[32m+[m[32m    event.preventDefault();[m
+[32m+[m[32m    const formData = new FormData(form);[m
+[32m+[m[32m    const name = String(formData.get('name') || '').trim();[m
+[32m+[m[32m    const subject = String(formData.get('subject') || 'Portfolio enquiry').trim();[m
+[32m+[m[32m    const message = String(formData.get('message') || '').trim();[m
+[32m+[m[32m    const mailTo = 'kanhaiyadalvi548@gmail.com';[m
+[32m+[m[32m    const body = [[m
+[32m+[m[32m      `Name: ${name}`,[m
+[32m+[m[32m      '',[m
+[32m+[m[32m      message[m
+[32m+[m[32m    ].join('\n');[m
+[32m+[m
+[32m+[m[32m    const url = `mailto:${mailTo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;[m
+[32m+[m[32m    window.location.href = url;[m
+[32m+[m[32m  });[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfunction initFloatingContact(){[m
+[32m+[m[32m  const btn = document.getElementById('floating-contact');[m
+[32m+[m[32m  if(!btn) return;[m
+[32m+[m[32m  btn.addEventListener('click', () => {[m
+[32m+[m[32m    const contact = document.getElementById('contact');[m
+[32m+[m[32m    if(contact) contact.scrollIntoView({behavior:'smooth', block:'start'});[m
+[32m+[m[32m  });[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mfunction initParallax(){[m
+[32m+[m[32m  window.addEventListener('scroll', () => {[m
+[32m+[m[32m    const sections = $$('section');[m
+[32m+[m[32m    sections.forEach(section => {[m
+[32m+[m[32m      const rect = section.getBoundingClientRect();[m
+[32m+[m[32m      const scrollPercent = (window.innerHeight - rect.top) / window.innerHeight;[m
+[32m+[m[32m      if(scrollPercent > 0 && scrollPercent < 1.5){[m
+[32m+[m[32m        const offset = (1 - scrollPercent) * 20;[m
+[32m+[m[32m        section.style.transform = `translateY(${offset}px)`;[m
+[32m+[m[32m      }[m
+[32m+[m[32m    });[m
+[32m+[m[32m  });[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mdocument.addEventListener('DOMContentLoaded', () => {[m
+[32m+[m[32m  setYear();[m
+[32m+[m[32m  runTypingEffect('typed-lines', HERO_LINES);[m
+[32m+[m[32m  initNav();[m
+[32m+[m[32m  initThemeSwitcher();[m
+[32m+[m[32m  initRevealAndSkills();[m
+[32m+[m[32m  renderCertificates();[m
+[32m+[m[32m  wireProjects();[m
+[32m+[m[32m  initEnquiryForm();[m
+[32m+[m[32m  initFloatingContact();[m
+[32m+[m[32m  initParallax();[m
+[32m+[m[32m});[m
+[1mdiff --git a/picture.png b/picture.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..72a6aa3[m
+Binary files /dev/null and b/picture.png differ
+[1mdiff --git a/styles.css b/styles.css[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3ad1645[m
+[1m--- /dev/null[m
+[1m+++ b/styles.css[m
+[36m@@ -0,0 +1,636 @@[m
+[32m+[m[32m:root{[m
+[32m+[m[32m  --bg: #f6f2ea;[m
+[32m+[m[32m  --bg-soft: #fdf9f2;[m
+[32m+[m[32m  --panel: #fffdfa;[m
+[32m+[m[32m  --text: #1b1f24;[m
+[32m+[m[32m  --muted: #5d6268;[m
+[32m+[m[32m  --accent: #b78b3c;[m
+[32m+[m[32m  --accent-600: #9f7428;[m
+[32m+[m[32m  --accent-soft: #efe1c5;[m
+[32m+[m[32m  --accent-bronze: #8c6832;[m
+[32m+[m[32m  --accent-emerald: #1f5f57;[m
+[32m+[m[32m  --accent-sapphire: #1f3f6b;[m
+[32m+[m[32m  --accent-ruby: #7c2f3a;[m
+[32m+[m[32m  --accent-platinum: #d8cfbf;[m
+[32m+[m[32m  --line: rgba(27, 31, 36, 0.1);[m
+[32m+[m[32m  --header-bg: rgba(253, 249, 242, 0.82);[m
+[32m+[m[32m  --page-glow-1: rgba(183, 139, 60, 0.2);[m
+[32m+[m[32m  --page-glow-2: rgba(132, 98, 34, 0.12);[m
+[32m+[m[32m  --page-glow-3: rgba(31, 95, 87, 0.14);[m
+[32m+[m[32m  --page-glow-4: rgba(31, 63, 107, 0.12);[m
+[32m+[m[32m  --section-bg: linear-gradient(180deg, rgba(250, 242, 226, 0.7), rgba(255, 251, 245, 0.44));[m
+[32m+[m[32m  --surface: linear-gradient(180deg, #fffdf9, #fbf6ee);[m
+[32m+[m[32m  --surface-strong: linear-gradient(180deg, #fffefb, #faf2e2);[m
+[32m+[m[32m  --surface-soft: rgba(255, 252, 246, 0.78);[m
+[32m+[m[32m  --portrait-bg: linear-gradient(165deg, #fffaf0 0%, #f2e6ce 65%, #e8ddcd 100%);[m
+[32m+[m[32m  --badge-bg: linear-gradient(145deg, rgba(31, 63, 107, 0.95), rgba(31, 95, 87, 0.95));[m
+[32m+[m[32m  --footer-bg: linear-gradient(180deg, rgba(255, 249, 239, 0.6), rgba(241, 232, 217, 0.7));[m
+[32m+[m[32m  --link-color: var(--accent-sapphire);[m
+[32m+[m[32m  --ghost-bg: rgba(255,255,255,0.62);[m
+[32m+[m[32m  --focus-ring: rgba(31, 95, 87, 0.16);[m
+[32m+[m[32m  --radius: 14px;[m
+[32m+[m[32m  --gap: 1.25rem;[m
+[32m+[m[32m  --max-width: 1120px;[m
+[32m+[m
+[32m+[m[32m  --fs-hero: 3rem;[m
+[32m+[m[32m  --fs-h2: 1.7rem;[m
+[32m+[m[32m  --fs-body: 1rem;[m
+[32m+[m[32m  --shadow: 0 16px 44px rgba(36, 30, 18, 0.12);[m
+[32m+[m[32m  --shadow-soft: 0 8px 24px rgba(36, 30, 18, 0.08);[m
+[32m+[m[32m  --transition: 300ms cubic-bezier(.2,.9,.2,1);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m*{box-sizing:border-box}[m
+[32m+[m[32mhtml,body{height:100%}[m
+[32m+[m[32mhtml{scroll-behavior:smooth}[m
+[32m+[m[32mbody{[m
+[32m+[m[32m  margin:0;[m
+[32m+[m[32m  font-family: Manrope, "Segoe UI", sans-serif;[m
+[32m+[m[32m  font-size:var(--fs-body);[m
+[32m+[m[32m  color:var(--text);[m
+[32m+[m[32m  background:[m
+[32m+[m[32m    radial-gradient(circle at 12% 8%, var(--page-glow-1), transparent 28%),[m
+[32m+[m[32m    radial-gradient(circle at 78% 30%, var(--page-glow-3), transparent 34%),[m
+[32m+[m[32m    radial-gradient(circle at 90% 12%, var(--page-glow-2), transparent 24%),[m
+[32m+[m[32m    radial-gradient(circle at 70% 86%, var(--page-glow-4), transparent 30%),[m
+[32m+[m[32m    linear-gradient(180deg, var(--bg-soft), var(--bg));[m
+[32m+[m[32m  -webkit-font-smoothing:antialiased;[m
+[32m+[m[32m  -moz-osx-font-smoothing:grayscale;[m
+[32m+[m[32m  line-height:1.5;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.skip-link{[m
+[32m+[m[32m  position:absolute;[m
+[32m+[m[32m  left:-9999px;[m
+[32m+[m[32m  top:auto;[m
+[32m+[m[32m  width:1px;[m
+[32m+[m[32m  height:1px;[m
+[32m+[m[32m  overflow:hidden;[m
+[32m+[m[32m}[m
+[32m+[m[32m.skip-link:focus{[m
+[32m+[m[32m  left:1rem;[m
+[32m+[m[32m  top:1rem;[m
+[32m+[m[32m  width:auto;[m
+[32m+[m[32m  height:auto;[m
+[32m+[m[32m  background:#fff;[m
+[32m+[m[32m  padding:.5rem .75rem;[m
+[32m+[m[32m  border-radius:6px;[m
+[32m+[m[32m  box-shadow:var(--shadow-soft);[m
+[32m+[m[32m  z-index:9999;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.container{[m
+[32m+[m[32m  max-width:var(--max-width);[m
+[32m+[m[32m  margin:0 auto;[m
+[32m+[m[32m  padding:3.5rem 1.25rem;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.site-header{[m
+[32m+[m[32m  position:sticky;[m
+[32m+[m[32m  top:0;[m
+[32m+[m[32m  z-index:80;[m
+[32m+[m[32m  backdrop-filter: blur(10px);[m
+[32m+[m[32m  background:var(--header-bg);[m
+[32m+[m[32m  border-bottom:1px solid var(--line);[m
+[32m+[m[32m}[m
+[32m+[m[32m.nav-inner{[m
+[32m+[m[32m  max-width:var(--max-width);[m
+[32m+[m[32m  margin:0 auto;[m
+[32m+[m[32m  display:flex;[m
+
