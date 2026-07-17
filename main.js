@@ -11,7 +11,8 @@ const CERTIFICATES = [
   { name: "Software Engineer Intern", file: "certificates/software_engineer_intern certificate.pdf" },
   { name: "Certificate JS", file: "certificates/certificateJS.pdf" },
   { name: "Resume (copy)", file: "Kanhaiya's Resume-hackerresume.pdf" },
-  {name:"Deliotte Virtual intership certificates",file:"certificates/Deloitte_completion_certificate.pdf"}
+  {name:"Deliotte Virtual intership certificates",file:"certificates/Deloitte_completion_certificate.pdf"},
+  {name:"Tata Virtual intership certificates",file:"certificates/TataCertificate.pdf"}
 ];
 
 const PROJECTS = [
